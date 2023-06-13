@@ -1,3 +1,50 @@
+# Cat Facts
+Create react App
+render a card with place holder text : 'Click to get a cat fact'
+add a button that says 'Get Cat Fact'
+
+on click
+  start loader on button
+  access cat facts API  https://catfact.ninja/#/Facts/getRandomFact
+  render fact instead of placeholder
+  stop loader
+
+## install react icons
+```
+npm install react-icons --save
+```
+
+## install SCSS
+these don't work to install SASS:
+```
+npm install -g sass
+brew install sass/sass/sass   
+```
+
+this works:
+```
+npm install node-sass
+```
+
+
+# Additional features to add
+1. testing
+2. Show 5 most recent facts
+3. SCSS & BEM
+4. Improve design
+
+Test:
+- Render
+    - title
+    - button
+    - placeholder
+- Click
+    - loader is visible
+    - check API response
+    - placeholder is gone
+    - Fact is rendered
+    - loader is gone
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
